@@ -1,7 +1,7 @@
 var nock = require('nock');
 var expect = require('chai').expect;
 
-describe('Callback review', function() {
+xdescribe('Callback review', function() {
   var callbackReview = require('../../exercises/bare_minimum/callbackReview.js');
 
   describe('pluckFirstLineFromFile', function() {
